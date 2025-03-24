@@ -1,0 +1,52 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi my name is nikhil",
+      "id": "972e00dd-98c0-4549-a092-4dd1b512dc25",
+      "createdAt": "2025-03-11T11:54:57.510Z"
+    },
+    {
+      "role": "user",
+      "content": "what is my name",
+      "id": "681af57a-f164-48ec-9d3a-1be20ffeedf4",
+      "createdAt": "2025-03-11T11:55:31.007Z"
+    },
+    {
+      "role": "user",
+      "content": "Hi my name is sumanth",
+      "id": "5393728c-5e00-4a15-ab32-080ef913bbe7",
+      "createdAt": "2025-03-11T11:56:59.611Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, Nikhil!\n\nYour name is... Nikhil!",
+      "id": "b07309d9-1d31-42b9-9453-161dd799ce1d",
+      "createdAt": "2025-03-11T11:57:02.579Z"
+    },
+    {
+      "role": "user",
+      "content": "Hi my name is sumanth",
+      "id": "606a4db9-5493-4633-93cd-6e0271ccf62c",
+      "createdAt": "2025-03-11T11:57:29.449Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I remember! Your name is Sumanth!",
+      "id": "f9696d57-645d-4b23-88c1-778ed64b035c",
+      "createdAt": "2025-03-11T11:57:31.698Z"
+    },
+    {
+      "role": "user",
+      "content": "who is nikhil",
+      "id": "ff4e5161-cacb-46be-b0f0-0f7b8a1dbf8a",
+      "createdAt": "2025-03-11T11:58:07.804Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Nikhil is YOU! You introduced yourself as Nikhil at the beginning of our conversation.",
+      "id": "f677d1aa-c4d2-470f-bf33-b262861e1b5d",
+      "createdAt": "2025-03-11T11:58:10.396Z"
+    }
+  ]
+}
