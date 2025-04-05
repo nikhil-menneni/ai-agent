@@ -1,0 +1,121 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "give me a image of dhoni with 7",
+      "id": "abdca7bc-31fc-4712-98f8-b4788796a2b6",
+      "createdAt": "2025-04-05T11:11:16.700Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_lScexpt9LsBlONtLETkd7fLB",
+          "type": "function",
+          "function": {
+            "name": "generate_image",
+            "arguments": "{\"prompt\":\"A digital artwork of a famous cricketer, MS Dhoni, in his iconic blue cricket jersey, holding a cricket bat with the number 7 prominently displayed on the back. The background is a vibrant cricket stadium with cheering fans. The atmosphere is lively and celebratory, capturing Dhoni's charismatic presence.\"}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "ca487a1f-638a-43c0-853e-52ff3ddb2ba8",
+      "createdAt": "2025-04-05T11:11:36.666Z"
+    },
+    {
+      "role": "tool",
+      "content": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-n4ZFxmVcJCAam3bZyal06Zbe/user-ws8SXK7AWCCbWr5TIHrg6ZLv/img-t6sG8ZTRXqPd9uT2LbtqY6eV.png?st=2025-04-05T10%3A12%3A35Z&se=2025-04-05T12%3A12%3A35Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-04T17%3A55%3A42Z&ske=2025-04-05T17%3A55%3A42Z&sks=b&skv=2024-08-04&sig=bbnyh0ZAvom2iAceffUiP55yR6yNWOlfyEnfrj8FTJg%3D",
+      "tool_call_id": "call_lScexpt9LsBlONtLETkd7fLB",
+      "id": "1fbb7d49-76db-4745-ab41-2849375919ef",
+      "createdAt": "2025-04-05T11:13:17.682Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the image of MS Dhoni with the number 7 prominently displayed on his jersey:\n\n![MS Dhoni with 7](https://oaidalleapiprodscus.blob.core.windows.net/private/org-n4ZFxmVcJCAam3bZyal06Zbe/user-ws8SXK7AWCCbWr5TIHrg6ZLv/img-t6sG8ZTRXqPd9uT2LbtqY6eV.png?st=2025-04-05T10%3A12%3A35Z&se=2025-04-05T12%3A12%3A35Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-04T17%3A55%3A42Z&ske=2025-04-05T17%3A55%3A42Z&sks=b&skv=2024-08-04&sig=bbnyh0ZAvom2iAceffUiP55yR6yNWOlfyEnfrj8FTJg%3D)\n\nFeel free to let me know if you need anything else!",
+      "refusal": null,
+      "annotations": [],
+      "id": "c135cf96-8134-41f8-b2c7-cf5a240390f5",
+      "createdAt": "2025-04-05T11:13:41.278Z"
+    },
+    {
+      "role": "user",
+      "content": "give me a dad joke",
+      "id": "9e9034bc-adeb-4d67-9c66-91d0e3763de9",
+      "createdAt": "2025-04-05T11:14:24.081Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_P7KlPkwCdofsuYc4IMIsSx3i",
+          "type": "function",
+          "function": {
+            "name": "dad_joke",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "e026e05a-6b93-4e08-8939-ea023aacbedd",
+      "createdAt": "2025-04-05T11:14:39.185Z"
+    },
+    {
+      "role": "tool",
+      "content": "I’ve deleted the phone numbers of all the Germans I know from my mobile phone. Now it’s Hans free.",
+      "tool_call_id": "call_P7KlPkwCdofsuYc4IMIsSx3i",
+      "id": "1901694e-5ab8-44d3-bb11-6a22571b10ea",
+      "createdAt": "2025-04-05T11:14:40.236Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a dad joke for you:\n\n\"I’ve deleted the phone numbers of all the Germans I know from my mobile phone. Now it’s Hans free.\"\n\nI hope that made you smile! Let me know if you want to hear another one.",
+      "refusal": null,
+      "annotations": [],
+      "id": "578015c7-b8c3-4df0-98c3-251b312a9eb8",
+      "createdAt": "2025-04-05T11:14:41.566Z"
+    },
+    {
+      "role": "user",
+      "content": "fetch me some content from reddit",
+      "id": "1822a304-e38b-4a87-bdb5-5296fb21a0ff",
+      "createdAt": "2025-04-05T11:15:17.726Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_Y3N6xUZhpqwgmosfg7mVRoYb",
+          "type": "function",
+          "function": {
+            "name": "reddit",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "51f1d146-8576-4bdb-80e8-0c5a09c7b1ec",
+      "createdAt": "2025-04-05T11:15:22.143Z"
+    },
+    {
+      "role": "tool",
+      "content": "[\n  {\n    \"title\": \"If Donald Trump had never won an election, how do you think the U.S. would be today?\",\n    \"link\": \"https://www.reddit.com/r/AskReddit/comments/1jrip8e/if_donald_trump_had_never_won_an_election_how_do/\",\n    \"subreddit\": \"r/AskReddit\",\n    \"author\": \"SophieCruzReddit\",\n    \"upvotes\": 20783\n  },\n  {\n    \"title\": \"California to Negotiate Trade With Other Countries to Bypass Trump Tariffs\",\n    \"link\": \"https://www.newsweek.com/california-newsom-trade-trump-tariffs-2055414\",\n    \"subreddit\": \"r/politics\",\n    \"author\": \"sweatycat\",\n    \"upvotes\": 89239\n  },\n  {\n    \"title\": \"AIO when my girlfriend says she’s busy?\",\n    \"link\": \"https://www.reddit.com/gallery/1jrdd31\",\n    \"subreddit\": \"r/AmIOverreacting\",\n    \"author\": \"Infected_Bubs\",\n    \"upvotes\": 14417\n  },\n  {\n    \"title\": \"MAX VERSTAPPEN IS ON POLE!! Q3 comes to an end with an impressive lap from Verstappen clinching first position from Lando Norris!\",\n    \"link\": \"https://i.redd.it/0btlmxmsuyse1.jpeg\",\n    \"subreddit\": \"r/formula1\",\n    \"author\": \"God_Will_Rise_\",\n    \"upvotes\": 14504\n  },\n  {\n    \"title\": \"Nintendo Switch 2 Preorders will not start on April 9 in the US thanks to the Tariffs\",\n    \"link\": \"https://i.redd.it/mjw03z1g2use1.jpeg\",\n    \"subreddit\": \"r/NintendoSwitch2\",\n    \"author\": \"Soplox\",\n    \"upvotes\": 40823\n  },\n  {\n    \"title\": \"Show me a close-up of your cat\",\n    \"link\": \"https://i.redd.it/0u8ko52cotse1.jpeg\",\n    \"subreddit\": \"r/cats\",\n    \"author\": \"wjb943\",\n    \"upvotes\": 22870\n  },\n  {\n    \"title\": \"Comedian Russell Brand charged with rape\",\n    \"link\": \"https://www.bbc.com/news/articles/c0457d02e9go\",\n    \"subreddit\": \"r/movies\",\n    \"author\": \"Moonskaraos\",\n    \"upvotes\": 58229\n  },\n  {\n    \"title\": \"Barstool Sports founder and Trump endorser Dave Portnoy reveals that he's lost $7 million in one day due to Trump's Tariffs™️\",\n    \"link\": \"https://v.redd.it/xmnle8ve5vse1\",\n    \"subreddit\": \"r/Fauxmoi\",\n    \"author\": \"Classic-Carpet7609\",\n    \"upvotes\": 39813\n  },\n  {\n    \"title\": \"Man sacrifices his car to save another driver who was unconciously driving.\",\n    \"link\": \"https://v.redd.it/1xc31tggiyse1\",\n    \"subreddit\": \"r/nextfuckinglevel\",\n    \"author\": \"HORROR_VIBE_OFFICIAL\",\n    \"upvotes\": 26586\n  },\n  {\n    \"title\": \"Trump showing the 'Golden Card', which will allow rich immigrants to the US to live in the country\",\n    \"link\": \"https://i.redd.it/hjz9vbolvyse1.png\",\n    \"subreddit\": \"r/pics\",\n    \"author\": \"ParsifalDoo\",\n    \"upvotes\": 9710\n  },\n  {\n    \"title\": \"🔥 These two male lions causally at the beach\",\n    \"link\": \"https://v.redd.it/hdzuuklw3yse1\",\n    \"subreddit\": \"r/NatureIsFuckingLit\",\n    \"author\": \"bendubberley_\",\n    \"upvotes\": 18663\n  },\n  {\n    \"title\": \"Played Battleship with my 7 year old son\",\n    \"link\": \"https://i.redd.it/zujbj6shvxse1.jpeg\",\n    \"subreddit\": \"r/mildlyinfuriating\",\n    \"author\": \"gingerninja78\",\n    \"upvotes\": 29686\n  },\n  {\n    \"title\": \"Denying the Holocaust is …\",\n    \"link\": \"https://i.redd.it/3tej8wqmivse1.jpeg\",\n    \"subreddit\": \"r/MapPorn\",\n    \"author\": \"sh1kora\",\n    \"upvotes\": 19296\n  },\n  {\n    \"title\": \"Trump, at Doral golf course, says things are \\\"going very well\\\" after worst stock mkt crash in years\",\n    \"link\": \"https://i.redd.it/44kqy36jhtse1.jpeg\",\n    \"subreddit\": \"r/pics\",\n    \"author\": \"picklerick8879\",\n    \"upvotes\": 93968\n  },\n  {\n    \"title\": \"What’s a film that’s massively hated that you will defend like this ?\",\n    \"link\": \"https://i.redd.it/nvw0o45w9xse1.jpeg\",\n    \"subreddit\": \"r/moviecritic\",\n    \"author\": \"Boring-Jelly5633\",\n    \"upvotes\": 1266\n  },\n  {\n    \"title\": \"During the Victorian era, doctors believed that women suffering from female hysteria needed to release built up nervous energy. A common treatment involved pelvic massage performed by physicians to induce a “hysterical paroxysm,” which is now understood to be an orgasm.\",\n    \"link\": \"https://i.redd.it/hsw57oy3rzse1.jpeg\",\n    \"subreddit\": \"r/Damnthatsinteresting\",\n    \"author\": \"Odd-House3197\",\n    \"upvotes\": 4001\n  },\n  {\n    \"title\": \"Target struggles after end of DEI program and boycott, with foot traffic down 8 weeks in a row.\",\n    \"link\": \"https://fortune.com/2025/04/01/target-dei-demise-boycott-foot-traffic-down-eighth-consecutive-week/?itm_source=parsely-api\",\n    \"subreddit\": \"r/Anticonsumption\",\n    \"author\": \"Healthy_Block3036\",\n    \"upvotes\": 45793\n  },\n  {\n    \"title\": \"Were 77.3 million people just taken in by maybe the greatest con in history?\",\n    \"link\": \"https://www.reddit.com/r/StockMarket/comments/1jrfgwi/were_773_million_people_just_taken_in_by_maybe/\",\n    \"subreddit\": \"r/StockMarket\",\n    \"author\": \"ChiGuy6124\",\n    \"upvotes\": 19564\n  },\n  {\n    \"title\": \"Georgia Aquarium uses RFID cups to track how many refills you have left.\",\n    \"link\": \"https://i.redd.it/n84jw5y8xvse1.jpeg\",\n    \"subreddit\": \"r/mildlyinteresting\",\n    \"author\": \"da_xiong12\",\n    \"upvotes\": 31001\n  },\n  {\n    \"title\": \"China strikes back at Trump with 34 percent tariff — bans rare earth exports to the U.S.\",\n    \"link\": \"https://www.tomshardware.com/tech-industry/china-strikes-back-on-trump-tariffs-bans-rare-earth-exports-to-the-u-s\",\n    \"subreddit\": \"r/worldnews\",\n    \"author\": \"Significant-Colour\",\n    \"upvotes\": 40920\n  },\n  {\n    \"title\": \"[Highlight] LeBron comes out of nowhere to help un-wedge a poor kid's ball\",\n    \"link\": \"https://streamable.com/p2ssqh\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"stephzh\",\n    \"upvotes\": 17027\n  },\n  {\n    \"title\": \"Absolute Cinema\",\n    \"link\": \"https://i.redd.it/1u26nf7tqyse1.png\",\n    \"subreddit\": \"r/formuladank\",\n    \"author\": \"CoconutSuga\",\n    \"upvotes\": 6662\n  },\n  {\n    \"title\": \"AITAH for considering divorce because my husband is constantIy pressuring me to have a natural birth instead of a C-section??\",\n    \"link\": \"https://www.reddit.com/r/AITAH/comments/1jrmyv2/aitah_for_considering_divorce_because_my_husband/\",\n    \"subreddit\": \"r/AITAH\",\n    \"author\": \"EIto_mate\",\n    \"upvotes\": 2704\n  },\n  {\n    \"title\": \"According to Gamespot Managing Editor: Pre-orders for Nintendo Switch 2 in the U.S. will not start April 9, 2025 in order to assess the potential impact of tariffs and evolving market conditions. Nintendo will update timing at a later date. The launch date of June 5, 2025 is unchanged.\",\n    \"link\": \"https://bsky.app/profile/tamoorh.com/post/3llyn7ib2rc2r\",\n    \"subreddit\": \"r/NintendoSwitch\",\n    \"author\": \"Turbostrider27\",\n    \"upvotes\": 9029\n  },\n  {\n    \"title\": \"Celebrated one year in recovery from Anorexia today 🎉\",\n    \"link\": \"https://i.redd.it/3yawhytqnxse1.jpeg\",\n    \"subreddit\": \"r/MadeMeSmile\",\n    \"author\": \"strawberry_poptart2\",\n    \"upvotes\": 25275\n  }\n]",
+      "tool_call_id": "call_Y3N6xUZhpqwgmosfg7mVRoYb",
+      "id": "4d0a8466-9278-4d65-8330-12fd05a3c5b9",
+      "createdAt": "2025-04-05T11:15:25.919Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are some recent posts from Reddit:\n\n1. **[If Donald Trump had never won an election, how do you think the U.S. would be today?](https://www.reddit.com/r/AskReddit/comments/1jrip8e/if_donald_trump_had_never_won_an_election_how_do/)**   \n   *Subreddit:* r/AskReddit | *Author:* SophieCruzReddit | *Upvotes:* 20,783\n\n2. **[California to Negotiate Trade With Other Countries to Bypass Trump Tariffs](https://www.newsweek.com/california-newsom-trade-trump-tariffs-2055414)**  \n   *Subreddit:* r/politics | *Author:* sweatycat | *Upvotes:* 89,239\n\n3. **[AIO when my girlfriend says she’s busy?](https://www.reddit.com/gallery/1jrdd31)**  \n   *Subreddit:* r/AmIOverreacting | *Author:* Infected_Bubs | *Upvotes:* 14,417\n\n4. **[MAX VERSTAPPEN IS ON POLE!! Q3 comes to an end with an impressive lap from Verstappen clinching first position from Lando Norris!](https://i.redd.it/0btlmxmsuyse1.jpeg)**  \n   *Subreddit:* r/formula1 | *Author:* God_Will_Rise_ | *Upvotes:* 14,504\n\n5. **[Comedian Russell Brand charged with rape](https://www.bbc.com/news/articles/c0457d02e9go)**  \n   *Subreddit:* r/movies | *Author:* Moonskaraos | *Upvotes:* 58,229\n\n6. **[Celebrated one year in recovery from Anorexia today 🎉](https://i.redd.it/3yawhytqnxse1.jpeg)**  \n   *Subreddit:* r/MadeMeSmile | *Author:* strawberry_poptart2 | *Upvotes:* 25,275\n\nFeel free to let me know if you would like more information or details about any specific post!",
+      "refusal": null,
+      "annotations": [],
+      "id": "87a3526d-5142-4167-9467-2c220719183f",
+      "createdAt": "2025-04-05T11:15:32.281Z"
+    }
+  ]
+}
