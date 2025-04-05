@@ -1,5 +1,6 @@
 # ai-agent
 Building an ai agent from scratch.
+
 A modular AI agent framework built from scratch in TypeScript, designed to work with both LLaMA 3 via Ollama and OpenAI models. This project enables function-calling agents that can interact with external tools through a flexible plugin-style system.
 
 Features
@@ -40,6 +41,7 @@ Ollama (LLaMA 3)
 
 Getting Started
 1. Clone & Install
+
 git clone https://github.com/nikhil-menneni/ai-agent
 
 cd ai-agent
