@@ -35,6 +35,7 @@ Ollama (LLaMA 3)
 Getting Started
 1. Clone & Install
 git clone https://github.com/nikhil-menneni/ai-agent
+
 cd ai-agent
 npm install
 
