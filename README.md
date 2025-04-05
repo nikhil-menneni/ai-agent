@@ -4,11 +4,17 @@ A modular AI agent framework built from scratch in TypeScript, designed to work 
 
 Features
 🧠 LLM integration:
+
 OpenAI GPT models.
+
 LLaMA 3 (via Ollama)
+
 🧰 Dynamic tool registry with Zod for schema validation
+
 🔁 Recursive reasoning and tool usage loop
+
 📦 Simple JSON-based memory store
+
 🔌 Easily extensible for new tools
 
 Tech Stack
